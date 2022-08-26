@@ -4,7 +4,7 @@ plugins:
 
 
 minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dirt", "dark", "default", "neon", "mint", "plum" "sunrise"
-locale: "en-WW"
+locale: "zh-CN"
 title: "负能量语录"
 subtitle: "Version 002"
 name: "thetirami"
