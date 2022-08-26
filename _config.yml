@@ -1,0 +1,71 @@
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+
+
+minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dirt", "dark", "default", "neon", "mint", "plum" "sunrise"
+locale: "en-WW"
+title: "负能量语录"
+subtitle: "Version 002"
+name: "thetirami"
+description: "The thetirami site."
+date_format: "%Y-%m-%d"
+
+search: true
+
+include:
+  - _pages
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+logo: "/assets/images/logo.webp"
+
+author:
+  name     : "thetirami"
+  avatar   : "/assets/images/head.webp"
+  bio      : "地球人类中的一员"
+  location : "Eindhoven, the Netherlands"
+  links:
+  - label: "M.Sc. in CSE, TU/e"
+    icon: "fas fa-fw fa-user-graduate"
+    url: "https://www.tue.nl/en/"
+  - label: "简历 (中文)"
+    icon: "fas fa-fw fa-address-card"
+    url: "https://mademistakes.com"
+  - label: "Resume (EN)"
+    icon: "fas fa-fw fa-id-card"
+    url: "https://twitter.com/mmistakes"
+  - label: "GitHub"
+    icon: "fab fa-fw fa-github"
+    url: "https://github.com/thetirami"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/thetirami"
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
